@@ -66,4 +66,3 @@ CREATE TABLE IF NOT EXISTS hashtag_mentions (
     term TEXT,
     FOREIGN KEY(tid) REFERENCES tweets(tid)
 );
-
