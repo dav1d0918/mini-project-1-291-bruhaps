@@ -67,6 +67,3 @@ CREATE TABLE IF NOT EXISTS hashtag_mentions (
     FOREIGN KEY(tid) REFERENCES tweets(tid)
 );
 
--- Sample data
-INSERT INTO users (name, email, phone, pwd) VALUES ('Alice', 'alice@example.com', '1234567890', 'alice123');
-INSERT INTO users (name, email, phone, pwd) VALUES ('Bob', 'bob@example.com', '0987654321', 'bob456');
